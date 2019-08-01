@@ -56,5 +56,3 @@ var reverseList = function(head) {
   // 新链表头永远指向的是原链表的链尾
   return newHead;
 };
-
-

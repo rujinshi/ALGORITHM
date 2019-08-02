@@ -13,6 +13,8 @@ var reverseString = function(s) {
   let lo = 0;
   let hi = s.length - 1;
   while (lo < hi) {
-    [s[lo++], s[hi--]] = [s[hi], s[lo]];
+    [s[lo], s[hi]] = [s[hi], s[lo]];
+    lo++;
+    hi--;
   }
 };
